@@ -41,7 +41,6 @@ void setupLCD() {
 void setup() {
   setupLCD();
   setupCloudSubscriptions();
-  requestCloudInfo();
 }
 void loop() {
 
