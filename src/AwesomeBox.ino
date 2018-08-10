@@ -151,7 +151,7 @@ void displayTraffic() {
     msg += " :) -";
   }
 
-  int diff = abs(timeWithTraffic - timeWithoutTraffic);
+  int diff = abs((timeWithTraffic - timeWithoutTraffic)/60);
   msg += String(diff);
 
 }
